@@ -1,0 +1,12 @@
+:root {
+  --title-font: 'Playfair Display', serif;
+  --text-font: 'Inter', sans-serif;
+
+  --light-blue: rgba(136, 188, 232, 1);
+  --mid-blue: rgba(101, 163, 214, 1);
+  --blue: rgba(57, 120, 178, 1);
+  --light: rgba(236, 236, 245, 1);
+  --light-brown: rgba(207, 144, 103, 1);
+  --brown: rgba(130, 68, 43, 1);
+  --dark: rgb(18, 18, 18);
+}

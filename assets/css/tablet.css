@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  header#header {
+    padding-inline: 4rem;
+  }
+  main section {
+    padding-inline: 4rem;
+  }
+  #hero {
+    height: 45vh;
+  }
+  .hero__content {
+    width: 40%;
+  }
+  .hero__image {
+    background: url(../img/hero.svg) no-repeat center/contain;
+    content: '';
+    display: block;
+    height: 30vh;
+    width: 40%;
+  }
+  #about {
+    align-items: center;
+    display: grid;
+    height: 50vh;
+  }
+}

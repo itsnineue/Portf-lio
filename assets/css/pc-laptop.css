@@ -1,0 +1,74 @@
+@media screen and (min-width: 992px) {
+  header#header {
+    padding-inline: 13%;
+  }
+  .navigation label {
+    display: none;
+  }
+  ul.navigation__menu {
+    align-items: center;
+    display: flex;
+    gap: 1.6rem;
+  }
+  ul.navigation__menu a {
+    font-weight: 600;
+  }
+  ul.navigation__menu a.active::after {
+    content: '';
+    display: grid;
+    background: var(--light-brown);
+    margin-bottom: -0.2rem;
+    height: 0.2rem;
+    width: 100%;
+  }
+  main section {
+    padding-inline: 13%;
+  }
+  #hero {
+    height: 89vh;
+  }
+  .hero__content {
+    width: 50%;
+  }
+  .hero__content p {
+    font-size: 2.4rem;
+  }
+  .hero__content h2 {
+    font-size: 6.4rem;
+  }
+  .hero__btn {
+    justify-content: left;
+    gap: 2.4rem;
+  }
+  .hero__image {
+    background: url(../img/hero.svg) no-repeat right/contain;
+    content: '';
+    display: flex;
+    height: 80vh;
+    width: 50%;
+  }
+  #about {
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    height: 70vh;
+  }
+  .about__image {
+    border-left: 0.4rem var(--blue) solid;
+    display: block;
+    height: 36rem;
+  }
+  .about__image img {
+    width: 36rem;
+  }
+  #projects {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+  }
+  .card__btn{
+    width: 40%;
+  }
+  .skills__list {
+    display: flex;
+  }
+}
